@@ -30,14 +30,14 @@ theme:
   show_author_info: false
 
   # Disqus comments manager - shortname
-  # disqus_shortname: gaya-webcreate
+  #disqus_shortname: gaya-webcreate
 
   # Google Analytics/Webmaster key, leave blank to ignore
   google_analytics_key:
   google_webmaster_key:
 
 # Build settings
-markdown: kramdown
+#markdown: kramdown
 
 # Permalinks
 permalink: pretty
@@ -59,3 +59,6 @@ exclude:
 sass:
   sass_dir: assets/css/_sass
   style: :compressed
+
+gems:
+  - jekyll-asciidoc
