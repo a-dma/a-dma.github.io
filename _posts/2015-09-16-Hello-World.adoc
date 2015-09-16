@@ -1,0 +1,22 @@
+---
+title: Title
+author: alessio
+#date: 2015-01-01 10:45
+permalink: blaaaa
+---
+
+Here we have the first paragraph. Just a bunch of text. This will go into the excerpt.
+
+
+Jekyll converts it to HTML using http://asciidoctor.org[Asciidoctor].
+
+[source,ruby]
+----
+puts "Hello, World!"
+----
+
+Let's pretend I actually have something to wirte here
+
+
+and then what happens?
+Nobody knows.
