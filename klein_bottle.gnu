@@ -7,7 +7,7 @@
 reset
 
 # wxt
-#set terminal wxt size 1000,600 enhanced font 'Verdana,10' persist transparent
+#set terminal qt size 1000,600 enhanced font 'Verdana,10' persist
 # png
 #set terminal pngcairo size 1000,600 enhanced font 'Verdana,10'
 #set output 'klein_bottle.png'
@@ -17,7 +17,7 @@ fsize '10'
 set output 'klein_bottle.svg'
 
 # color definitions
-#set style line 2 lc rgb '#157545' lt 2 lw 2 # --- red
+set style line 1 lc rgb '#006699'lw 2 # --- green
 
 set tmargin at screen 0.99
 set bmargin at screen 0.01
@@ -52,4 +52,4 @@ z(u,v)= v<pi   ? -2.5*sin(v)             : \
         v<3*pi ? (2+cos(u))*sin(v)+3*pi  : \
                  -3*v+12*pi
 
-splot x(u,v),y(u,v),-z(u,v) w pm3d lc rgb '#707070'
+splot x(u,v),y(u,v),-z(u,v) w pm3d lt 1 lc rgb '#707070'
