@@ -1,14 +1,14 @@
 /*
- * Social media icons 
+ * Social media icons
  */
 
 ul.social-media {
 
-  li { 
+  li {
     padding-right: 2px;
     display:inline-block;
   }
-  
+
   li > a {
     width: 24px;
     height: 24px;
@@ -23,12 +23,12 @@ ul.social-media {
       background-color: $color-white;
     }
   }
-    
+
   li a.twitter {
     background-position: 0 0;
       &:hover {
         background-position: 0 -24px;
-    } 
+    }
   }
 
   li a.github {
@@ -45,7 +45,7 @@ ul.social-media {
     }
   }
 
-  li a.dribble {
+  li a.linkedin {
     background-position: -72px 0;
     &:hover {
       background-position: -72px -24px;
@@ -75,7 +75,7 @@ ul.social-media {
 }
 
 /**
- * IE fallback 
+ * IE fallback
  */
 .no-svg footer.main-footer ul.social-media li a {
   width: 24px;
