@@ -57,6 +57,7 @@ exclude:
   - .sass-cache
   - Gemfile.lock
   - klein_bottle.gnu
+  - klein_bottle.svg
 
 # Sass conversion configs
 sass:
