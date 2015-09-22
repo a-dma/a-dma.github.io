@@ -14,7 +14,8 @@ sidebar_thumbnail:   "/assets/images/klein300.png" # Sidebar image
 # Theme customization - please change from the defaults!
 theme:
   # Color for sidebar bar, links, etc
-  highlight_color: "#707070" #205081" # "#272935"
+  highlight_color: "#006699"
+
   # Social media links, leave blank to ignore
   social:
     github: a-dma
@@ -38,7 +39,7 @@ theme:
   google_webmaster_key:
 
 # Build settings
-#markdown: kramdown
+markdown: kramdown
 
 # Permalinks
 permalink: pretty
