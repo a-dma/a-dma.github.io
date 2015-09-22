@@ -11,7 +11,7 @@ CONFIG = {
   'version' => "0.1",
   'layouts' => File.join(SOURCE, "_layouts"),
   'posts' => File.join(SOURCE, "_posts"),
-  'post_ext' => "md"
+  'post_ext' => "adoc"
 }
 
 desc 'Preview the site with Jekyll'
@@ -20,7 +20,7 @@ task :preview do
 end
 
 desc 'Search site and print specific deprecation warnings'
-task :check do 
+task :check do
     sh "jekyll doctor"
 end
 
@@ -33,12 +33,12 @@ task :post do
   category = ENV["category"] || ""
   category = "\"#{category.gsub(/-/,' ')}\"" if !category.empty?
   slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
-  
+
   puts "Title: #{title}"
   puts "Tags: #{tags}"
   puts "Category: #{category}"
   puts "Slug: #{slug}"
-  
+
   begin
     date = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%Y-%m-%d')
   rescue => e
@@ -49,7 +49,7 @@ task :post do
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
-  
+
   puts "Creating new post: #{filename}"
   puts "#{filename}"
   open(filename, 'w') do |post|
@@ -76,7 +76,7 @@ task :page do
   if File.exist?(filename)
     abort("rake aborted! #{filename} already exists.")
   end
-  
+
   puts "Creating new page: #{filename}"
   open(filename, 'w') do |post|
     post.puts "---"
