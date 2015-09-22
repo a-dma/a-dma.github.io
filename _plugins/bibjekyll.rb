@@ -1,4 +1,4 @@
-# Copyright (c) 2010-2013 Pablo de Oliveira Castro and contributors 
+# Copyright (c) 2010-2013 Pablo de Oliveira Castro and contributors
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -45,7 +45,7 @@ module Jekyll
       args = split_params(params)
       @style = args[0]
       @bibfile = args[1]
-      p "Processing: " + @bibfile 
+      p "Processing: " + @bibfile
     end
 
     def render(context)
@@ -56,8 +56,11 @@ module Jekyll
       bib = File.join(File.dirname(sourcefile), @bibfile)
 
       outputfile = File.join(context['site']['destination'], context['page']['url'])
-      outputdir = File.dirname(outputfile)
-
+      if outputfile[-4] == "." or outputfile[-5] == "."
+        outputdir = File.dirname(outputfile)
+      else
+        outputdir = outputfile
+      end
 
       # ensure that the destination directory exists
       FileUtils.mkdir_p(outputdir)
