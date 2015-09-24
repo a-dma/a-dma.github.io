@@ -3,8 +3,7 @@ title: Inside the Klein bottle
 tagline: Random thoughts neither here nor there
 email: my@email.com
 description: > # this means to ignore newlines until "baseurl:"
-  Hi, just me.
-  Add description here :)
+  Welcome on this side of the bottle
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://alessiodimauro.com" # the base hostname & protocol for your site
 logourl: /assets/images/klein42.png # Site logo
