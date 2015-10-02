@@ -164,7 +164,7 @@ Here is a brief list of the tools and I've been using:
    [bibjekyll](https://github.com/pablooliveira/bibjekyll){:target="_blank"};
  * All the text editing and the page creation is done using my trusty
    companion of many typing adventures,
-   [Emacs](https://www.gnu.org/software/emacs/){:target="_blank"};
+   [Emacs](https://www.gnu.org/software/emacs/){:target="_blank"}.
 
 ---
 
