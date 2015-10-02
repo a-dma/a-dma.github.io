@@ -57,6 +57,10 @@ exclude:
   - Gemfile.lock
   - klein_bottle.gnu
 
+asciidoctor:
+  attributes:
+    - hardbreaks!
+
 # Sass conversion configs
 sass:
   sass_dir: assets/css/_sass
