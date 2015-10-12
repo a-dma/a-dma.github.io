@@ -16,7 +16,7 @@ using static pages already so I might as well move to smarter static
 pages.
 
 As it often happens, the real reason why I made this is to learn
-something. I wanted try and build the website in a slightly more
+something. I wanted to try and build the website in a slightly more
 interesting way than just a bunch of static HTML pages, and also make
 it more maintainable. Jekyll is indeed extremely simple to use and I
 also get a responsive website for free. I'm also a big fan of git, so
