@@ -15,7 +15,7 @@ In 2014 I received a PhD degree in Computer Science from the [Embedded System En
 
 **Email:** <span class="reverse">moc.ocibuy [ta] oissela</span> ,<span class="reverse">moc.oruamidoissela [ta] oissela</span>
 
-**GPG Key:** [4133 1A83 E892 DC83 AD70  4E8D 245C 7396 0A7C 787E](https://pgp.mit.edu/pks/lookup?op=get&search=0x245C73960A7C787E){:target="_blank"}
+**GPG Key:** [B70D 62AA 6A31 AD6B 9E4F  9F4B DC88 8892 5D25 CA7A](https://pgp.mit.edu/pks/lookup?op=get&search=0xDC8888925D25CA7A){:target="_blank"}
 
 **Keyart:**
 
