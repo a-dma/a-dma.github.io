@@ -23,7 +23,7 @@ them in 1882.
 
 ## Start with a strip
 
-To get a Klein bottle you have to start with M&ouml;bius strip. This
+To get a Klein bottle you have to start with a M&ouml;bius strip. This
 is another very interesting surface. To obtain one simply cut a strip
 of paper, twist one end by 180 degrees and join it with the opposite
 end. ![M&obius strip](/assets/images/moebius.png){:.center-image} If
@@ -90,7 +90,7 @@ self-intersect. This means that during one of your marker adventures
 on the surface of a Klein bottle, you could just draw straight through
 the self intersection. Hopefully I don't have to explain you why this
 is not possible in the real world. So how do Klein bottles not
-self-intersect? Well, the truth is that, as always, mathematician
+self-intersect? Well, the truth is that, as always, mathematicians
 cheat. A Klein bottle is really a four-dimensional shape that can not
 exist in our world with just three dimensions. By moving the offending
 piece into a fourth dimension you would be able to simply go through
@@ -134,7 +134,7 @@ hosted on freely available platforms.
 
 Here is a brief list of the tools and I've been using:
 
- * The website is made using
+ * The website is built using
    [Jekyll](https://www.jekyllrb.com){:target="_blank"};
  * [Github](https://www.github.com){:target="_blank"} provides
    [free hosting](https://pages.github.com){:target="_blank"} for
