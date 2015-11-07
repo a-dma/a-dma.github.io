@@ -16,11 +16,11 @@ using static pages already so I might as well move to smarter static
 pages.
 
 As it often happens, the real reason why I made this is to learn
-something. I wanted to try and build the website in a slightly more
-interesting way than just a bunch of static HTML pages, and also make
-it more maintainable. Jekyll is indeed extremely simple to use and I
-also get a responsive website for free. I'm also a big fan of git, so
-using GitHub pages seemed the most logical choice.
+something new. I wanted to try and build the website in a slightly
+more interesting way, and also make it more maintainable. Jekyll is
+indeed extremely simple to use, plus I get a responsive website and a
+blog for free. I'm also a big fan of git, so using GitHub pages seemed
+the most logical choice.
 
 The previous version was running off of the Raspberry Pi in my living
 room. While that is a perfectly viable solution considering the amount
@@ -30,8 +30,8 @@ to use a dynamic DNS and change things around every now and then.
 
 This will all go away with this new setup and I will also have to
 worry a bit less about backup, mostly just cross my fingers that
-GitHub doesn't go belly-up overnight and do a manual copy every now
-and then.
+GitHub doesn't go belly-up overnight and do a manual copy every once
+in a while.
 
 Last but not least, I get to use my YubiKey to do the authentication
 over SSH, which is always a big plus in my book.
