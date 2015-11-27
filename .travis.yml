@@ -1,0 +1,14 @@
+language: ruby
+
+script: "./make-site.sh"
+
+branches:
+  only:
+  - jekyll
+
+rvm:
+- 2.2.0
+
+env:
+  global:
+    secure: "SuJeOD9cWibjeRC+dniivjZvZ1mMcqdLROyn5tappfTpe1cBRZULDIn6bVuxyJFG8sdf9bzeYo+VkCFa6NmkbEVlvx+1IW5hJONy9XKx5DZGfzkXu10F8spWKLJ/Ohp9s10LNNiiKSty1UjAMT9BdijOP31ZHVGQZhSv/tcFwnRgeMb2HNI83Z/hTuOeHKNmwE7NfkawfRRUkfE6oKXWzo3fgqRfBVWr5ZV4+Z8DhkSTxh7sDaiG0ploJKWgw039t8K4755Q2Z1OBmu6JvPcePTBdNlgRYl63MNO7h19e0+UKrNbIpL98qPBM4f17YLcZtOrFM8UiGkke3XnnD02Vt7VRyvZtKPlc/1y+iUEc2BNyHa+7n6nWr7WBa7UTlaDeb/H/ogRr8M/2Q4oJ5/NdYRTXooIf3A/Yzoe1iasPtX9L0baGwYI4NJ6MWy8O/fsb9JF0Og8fM7+M6urpGLWpj3hZIQbiQ1aFg9Ev15PImc8hTwMU+ctqZwbneZ81nH3n/IU9LnSST7fogorW99cmm2nz3FcZE7c8qti8UXl8RFvY6qK+Xt7kHXASQWgtQv7w2tIaulj35mEuMgI0/5MArl7BPb8sPrlD8aX9cF+D9fRzLTxYP2TSvooQg56vx1LffvAk6UQ2w/f0XvwKhzxg4wyHNQPDTyng0dGxREWo3g="
