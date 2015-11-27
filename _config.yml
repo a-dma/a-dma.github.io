@@ -34,7 +34,7 @@ theme:
   disqus_shortname: alessiodimauro
 
   # Google Analytics/Webmaster key, leave blank to ignore
-  google_analytics_key:
+  google_analytics_key: "UA-67894070-1"  # AKA Tracking ID
   google_webmaster_key:
 
 # Build settings
