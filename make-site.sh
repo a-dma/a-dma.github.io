@@ -3,11 +3,6 @@
 # Exit with nonzero exit code if anything fails
 set -e
 
-
-# Setup git user
-git config user.name "Travis CI"
-git config user.email "alessio@alessiodimauro.com"
-
 # Clone master
 echo "Cloning master"
 
@@ -36,6 +31,10 @@ branches:
 EOF
 
 git add -A
+
+# Setup git user
+git config user.name "Travis CI"
+git config user.email "alessio@alessiodimauro.com"
 
 echo "Committing and pushing"
 git commit -a -m "Travis build number $TRAVIS_BUILD_NUMBER"
