@@ -22,18 +22,18 @@ In 2014 I received a PhD degree in Computer Science from the [Embedded System En
 
 ~~~~~~
 +-----[RSA 4096]----+
-|^ ^^.^^            |
-|.l.::^ ^ :         |
-|.^x^.   l ^        |
-|.l:?.E . .         |
-|.:^ ^     .        |
-| ..      S         |
 |                   |
 |                   |
 |                   |
 |                   |
-|                   |
-+-[245C73960A7C787E]+
+|    . .            |
+| . . ^   S ^       |
+|  ^ ^   ^ ^ :      |
+| :.:..^.^  . .     |
+|:.E.:^.: .         |
+|.. :^.^ .          |
+|  :l:. :.          |
++-----[5D25CA7A]----+
 ~~~~~~
 
 ## List of Publications
