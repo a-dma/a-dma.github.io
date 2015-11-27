@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inside the Klein bottle</title>
+    <description>Welcome on this side of the bottle
+</description>
+    <link>http://alessiodimauro.com//</link>
+    <atom:link href="http://alessiodimauro.com//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 27 Nov 2015 23:50:19 +0000</pubDate>
+    <lastBuildDate>Fri, 27 Nov 2015 23:50:19 +0000</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>New website</title>
+        <description>&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Fresh start and complete overhaul!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The website I was running before was put together in an afternoon and
+I&amp;#8217;ve been thinking of giving it a new coat of paint for a long time.
+After much deliberation I finally settled on
+&lt;a href=&quot;http://jekyllrb.com&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt;. I figured that I was
+using static pages already so I might as well move to smarter static
+pages.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;As it often happens, the real reason why I made this is to learn
+something new. I wanted to try and build the website in a slightly
+more interesting way, and also make it more maintainable. Jekyll is
+indeed extremely simple to use, plus I get a responsive website and a
+blog for free. I&amp;#8217;m also a big fan of git, so using GitHub pages seemed
+the most logical choice.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The previous version was running off of the Raspberry Pi in my living
+room. While that is a perfectly viable solution considering the amount
+of traffic that this website (doesn&amp;#8217;t) get, it felt a bit like too
+much of a hack. Plus, without having a truly static IP address I had
+to use a dynamic DNS and change things around every now and then.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This will all go away with this new setup and I will also have to
+worry a bit less about backup, mostly just cross my fingers that
+GitHub doesn&amp;#8217;t go belly-up overnight and do a manual copy every once
+in a while.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Last but not least, I get to use my YubiKey to do the authentication
+over SSH, which is always a big plus in my book.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;If for some reason you&amp;#8217;re actually interested in the explanation
+behind the website &quot;theme&quot; and the technologies used to make it you
+can have a look at &lt;a href=&quot;/aboutsite&quot; target=&quot;_blank&quot;&gt;this link&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;I understand that to the average visitor (i.e. you) this might seem
+like a completely pointless exercise, but I had fun doing it and
+learned a few things along the way.&lt;br&gt;
+Now the question is, how long will it take before I get bored of
+writing things or (more realistically) run out of interesting things
+to post?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;We shall see&amp;#8230;&amp;#8203;&lt;/p&gt;
+&lt;/div&gt;</description>
+        <pubDate>Fri, 02 Oct 2015 00:00:00 +0000</pubDate>
+        <link>http://alessiodimauro.com//general/2015/10/02/Hello-World/</link>
+        <guid isPermaLink="true">http://alessiodimauro.com//general/2015/10/02/Hello-World/</guid>
+        
+        
+        <category>general</category>
+        
+      </item>
+    
+  </channel>
+</rss>
