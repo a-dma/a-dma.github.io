@@ -12,3 +12,9 @@ rvm:
 env:
   global:
     secure: "a21UV8meVmwFLIr3iZVuRACCGuIBgw9tQ9neSU0BVmMWuG+r12YgWVcAhKk2n66t5/+ilYzxrw6zvDKYdNckLrzc5MFlj/K8rx7rO9JSrta4/AG40Nnuy/MkZRQazgKAoMknCEoTwnpjEB5tBPQm5JReE917NIbL1GIRjjz6XyvIR1/ilTxVSJH7mitYDX2lyd7kk9+nShtN3SQ/hiUHbm8SBZSJumf6iBcKdiHFrV+zBifQO3r4UDLo+4TdlbqV1S6pPMXAcEqKjyCj5+Q9mLCzfRWxCMTTCt6rY3w/5U1i9JyB5xEmmSiA+uteBFZgnAMepyvNAOMJsWyY+BcU9Zu/7pL+3praAAhe1JycdRHAPhKqDf0nGCnsVgXy8kShpMkIPeWXgDdfzFt3RLyOJ/70BokMzmsu+uy6Vd2WpxhdTMSgovUvWOf/dm6dv19wZraRvbg6OJHBUNES5CKdPfbkwg/glcI05cumOC7Mun8xYc/8waOsVqjl+KvVCvGpBsdWvCnUSxcA6UyhYPiED8eI4AIcCeVQCaZBBYnSu0QGhuuWi3NCPuyewDA41Z712gIiYlhTVXu50kpcWI6PgOavCq4VBX469XBC5YHmGY4BmMYEzh2kFnTR9ydgzUlZMy+hNYVby7Rgn7s1tj0nAowus12EUQ8iMRmerh2H1Yg="
+
+# To regenerate the encrypted token do the following
+# - Create a token on github
+# - Get the travis client ([sudo] gem install travis)
+# - Encrypt the token (travis encrypt GH_TOKN=<token value> --add)
+# - The new value will be appended to this file
