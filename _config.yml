@@ -48,7 +48,6 @@ paginate: 5
 
 # Files/Folders to be excluded from generated _site folder
 exclude:
-  - CNAME
   - Gemfile
   - Rakefile
   - README.md
