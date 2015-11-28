@@ -6,8 +6,8 @@
 </description>
     <link>http://alessiodimauro.com//</link>
     <atom:link href="http://alessiodimauro.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 28 Nov 2015 11:51:12 +0000</pubDate>
-    <lastBuildDate>Sat, 28 Nov 2015 11:51:12 +0000</lastBuildDate>
+    <pubDate>Sat, 28 Nov 2015 12:01:15 +0000</pubDate>
+    <lastBuildDate>Sat, 28 Nov 2015 12:01:15 +0000</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -39,8 +39,8 @@ much of a hack. Plus, without having a truly static IP address I had
 to use a dynamic DNS and change things around every now and then.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;This will all go away with this new setup and I will also have to
-worry a bit less about backup, mostly just cross my fingers that
+&lt;p&gt;That will all go away with this new setup and I will also have to
+worry a bit less about backups, mostly just cross my fingers that
 GitHub doesn&amp;#8217;t go belly-up overnight and do a manual copy every once
 in a while.&lt;/p&gt;
 &lt;/div&gt;
@@ -50,7 +50,7 @@ over SSH, which is always a big plus in my book.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;If for some reason you&amp;#8217;re actually interested in the explanation
-behind the website &quot;theme&quot; and the technologies used to make it you
+behind the website &quot;theme&quot; and the technologies used to make it, you
 can have a look at &lt;a href=&quot;/aboutsite&quot; target=&quot;_blank&quot;&gt;this link&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
