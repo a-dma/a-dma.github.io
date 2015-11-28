@@ -28,8 +28,8 @@ of traffic that this website (doesn't) get, it felt a bit like too
 much of a hack. Plus, without having a truly static IP address I had
 to use a dynamic DNS and change things around every now and then.
 
-This will all go away with this new setup and I will also have to
-worry a bit less about backup, mostly just cross my fingers that
+That will all go away with this new setup and I will also have to
+worry a bit less about backups, mostly just cross my fingers that
 GitHub doesn't go belly-up overnight and do a manual copy every once
 in a while.
 
@@ -37,7 +37,7 @@ Last but not least, I get to use my YubiKey to do the authentication
 over SSH, which is always a big plus in my book.
 
 If for some reason you're actually interested in the explanation
-behind the website "theme" and the technologies used to make it you
+behind the website "theme" and the technologies used to make it, you
 can have a look at link:/aboutsite[this link, window="_blank"].
 
 I understand that to the average visitor (i.e. you) this might seem
